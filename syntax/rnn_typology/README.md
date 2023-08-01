@@ -1,0 +1,1 @@
+This is a clone of [RNN Typology](https://github.com/shauli-ravfogel/rnn_typology). See the readme.md under `datasets_creation` instructions on generating the data used in this paper.

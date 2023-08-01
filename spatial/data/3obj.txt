@@ -1,0 +1,100 @@
+You are in the middle of a laundry room. There is a dryer on the east side. There is a sink on the west side. There is a washing machine on the south side. 
+You are in the middle of a living room. There is a TV on the south side. There is a bookcase on the east side. There is a mirror on the north side. 
+You are in the middle of a kitchen. There is a microwave on the south side. There is a fridge on the west side. There is a coffee machine on the north side. 
+You are in the middle of a study room. There is a desk on the north side. There is a computer on the south side. There is a lamp on the east side. 
+You are in the middle of a kitchen. There is a chair on the west side. There is a dishwasher on the east side. There is a blender on the south side. 
+You are in the middle of a bedroom. There is a lamp on the west side. There is a bed on the east side. There is a wardrobe on the north side. 
+You are in the middle of a dining room. There is a lamp on the east side. There is a sideboard on the west side. There is a table on the north side. 
+You are in the middle of a bathroom. There is a mirror on the south side. There is a toilet on the east side. There is a sink on the west side. 
+You are in the middle of a bedroom. There is a wardrobe on the north side. There is a bookcase on the south side. There is a computer on the east side. 
+You are in the middle of a study room. There is a desk on the south side. There is a bookcase on the east side. There is a computer on the west side. 
+You are in the middle of a living room. There is a sofa on the east side. There is a lamp on the west side. There is a bookcase on the north side. 
+You are in the middle of a kitchen. There is a microwave on the north side. There is a dishwasher on the east side. There is a chair on the south side. 
+You are in the middle of a living room. There is a sofa on the south side. There is a mirror on the north side. There is a coffee table on the east side. 
+You are in the middle of a study room. There is a bookcase on the south side. There is a lamp on the north side. There is a computer on the west side. 
+You are in the middle of a dining room. There is a sideboard on the east side. There is a lamp on the north side. There is a chair on the south side. 
+You are in the middle of a dining room. There is a table on the east side. There is a lamp on the north side. There is a sideboard on the west side. 
+You are in the middle of a bedroom. There is a chair on the east side. There is a wardrobe on the north side. There is a desk on the south side. 
+You are in the middle of a living room. There is a sofa on the south side. There is a mirror on the north side. There is a coffee table on the east side. 
+You are in the middle of a bedroom. There is a wardrobe on the west side. There is a desk on the north side. There is a mirror on the south side. 
+You are in the middle of a laundry room. There is a washing machine on the south side. There is a sink on the north side. There is a dryer on the east side. 
+You are in the middle of a living room. There is a coffee table on the west side. There is a sofa on the east side. There is a lamp on the north side. 
+You are in the middle of a laundry room. There is a dryer on the north side. There is a washing machine on the east side. There is a sink on the south side. 
+You are in the middle of a kitchen. There is a toaster on the west side. There is a microwave on the north side. There is a sink on the east side. 
+You are in the middle of a study room. There is a lamp on the east side. There is a chair on the west side. There is a computer on the south side. 
+You are in the middle of a laundry room. There is a sink on the north side. There is a washing machine on the east side. There is a dryer on the west side. 
+You are in the middle of a laundry room. There is a washing machine on the north side. There is a dryer on the east side. There is a sink on the south side. 
+You are in the middle of a study room. There is a chair on the west side. There is a desk on the east side. There is a lamp on the south side. 
+You are in the middle of a study room. There is a computer on the south side. There is a lamp on the east side. There is a mirror on the north side. 
+You are in the middle of a living room. There is a mirror on the north side. There is a sofa on the east side. There is a TV on the south side. 
+You are in the middle of a bathroom. There is a toilet on the east side. There is a bathtub on the west side. There is a mirror on the south side. 
+You are in the middle of a dining room. There is a mirror on the east side. There is a chair on the south side. There is a sideboard on the west side. 
+You are in the middle of a laundry room. There is a sink on the south side. There is a washing machine on the east side. There is a dryer on the west side. 
+You are in the middle of a bathroom. There is a toilet on the west side. There is a mirror on the south side. There is a shower on the east side. 
+You are in the middle of a bedroom. There is a TV on the south side. There is a mirror on the west side. There is a bed on the north side. 
+You are in the middle of a kitchen. There is a microwave on the north side. There is a blender on the west side. There is a table on the south side. 
+You are in the middle of a kitchen. There is a coffee machine on the west side. There is a blender on the north side. There is a sink on the east side. 
+You are in the middle of a laundry room. There is a sink on the west side. There is a washing machine on the east side. There is a dryer on the south side. 
+You are in the middle of a kitchen. There is a sink on the north side. There is a dishwasher on the east side. There is a chair on the west side. 
+You are in the middle of a bathroom. There is a sink on the east side. There is a toilet on the west side. There is a bathtub on the north side. 
+You are in the middle of a bedroom. There is a computer on the north side. There is a TV on the south side. There is a wardrobe on the east side. 
+You are in the middle of a laundry room. There is a washing machine on the east side. There is a dryer on the north side. There is a sink on the west side. 
+You are in the middle of a kitchen. There is a sink on the south side. There is a chair on the east side. There is a table on the west side. 
+You are in the middle of a dining room. There is a sideboard on the north side. There is a mirror on the east side. There is a lamp on the south side. 
+You are in the middle of a study room. There is a mirror on the east side. There is a lamp on the west side. There is a bookcase on the north side. 
+You are in the middle of a bathroom. There is a bathtub on the south side. There is a shower on the north side. There is a sink on the west side. 
+You are in the middle of a kitchen. There is a kettle on the east side. There is a chair on the west side. There is a fridge on the north side. 
+You are in the middle of a bedroom. There is a chair on the east side. There is a drawer on the south side. There is a lamp on the west side. 
+You are in the middle of a dining room. There is a chair on the west side. There is a sideboard on the east side. There is a table on the north side. 
+You are in the middle of a bedroom. There is a chair on the east side. There is a drawer on the south side. There is a wardrobe on the west side. 
+You are in the middle of a kitchen. There is a toaster on the west side. There is a fridge on the south side. There is a table on the east side. 
+You are in the middle of a laundry room. There is a dryer on the north side. There is a washing machine on the east side. There is a sink on the south side. 
+You are in the middle of a living room. There is a sofa on the south side. There is a TV on the north side. There is a lamp on the west side. 
+You are in the middle of a laundry room. There is a sink on the north side. There is a washing machine on the west side. There is a dryer on the east side. 
+You are in the middle of a bedroom. There is a TV on the west side. There is a bed on the east side. There is a wardrobe on the south side. 
+You are in the middle of a living room. There is a bookcase on the west side. There is a lamp on the north side. There is a coffee table on the south side. 
+You are in the middle of a bathroom. There is a shower on the south side. There is a toilet on the west side. There is a bathtub on the north side. 
+You are in the middle of a bedroom. There is a bed on the south side. There is a lamp on the north side. There is a computer on the west side. 
+You are in the middle of a living room. There is a TV on the south side. There is a coffee table on the east side. There is a sofa on the north side. 
+You are in the middle of a bedroom. There is a desk on the east side. There is a computer on the west side. There is a TV on the north side. 
+You are in the middle of a bedroom. There is a mirror on the west side. There is a computer on the east side. There is a drawer on the south side. 
+You are in the middle of a dining room. There is a lamp on the west side. There is a sideboard on the east side. There is a chair on the north side. 
+You are in the middle of a dining room. There is a mirror on the east side. There is a chair on the west side. There is a table on the south side. 
+You are in the middle of a laundry room. There is a dryer on the east side. There is a washing machine on the west side. There is a sink on the north side. 
+You are in the middle of a laundry room. There is a dryer on the north side. There is a sink on the west side. There is a washing machine on the east side. 
+You are in the middle of a bedroom. There is a desk on the east side. There is a drawer on the north side. There is a bed on the south side. 
+You are in the middle of a kitchen. There is a microwave on the east side. There is a chair on the west side. There is a blender on the south side. 
+You are in the middle of a dining room. There is a mirror on the north side. There is a table on the east side. There is a sideboard on the west side. 
+You are in the middle of a study room. There is a lamp on the west side. There is a chair on the south side. There is a computer on the east side. 
+You are in the middle of a dining room. There is a mirror on the north side. There is a chair on the east side. There is a table on the west side. 
+You are in the middle of a kitchen. There is a table on the north side. There is a coffee machine on the south side. There is a kettle on the east side. 
+You are in the middle of a laundry room. There is a dryer on the west side. There is a sink on the north side. There is a washing machine on the east side. 
+You are in the middle of a study room. There is a chair on the east side. There is a mirror on the north side. There is a computer on the west side. 
+You are in the middle of a living room. There is a bookcase on the north side. There is a coffee table on the east side. There is a mirror on the west side. 
+You are in the middle of a laundry room. There is a dryer on the west side. There is a sink on the south side. There is a washing machine on the east side. 
+You are in the middle of a bedroom. There is a wardrobe on the north side. There is a computer on the west side. There is a drawer on the east side. 
+You are in the middle of a study room. There is a computer on the south side. There is a desk on the west side. There is a mirror on the east side. 
+You are in the middle of a bedroom. There is a bed on the north side. There is a computer on the east side. There is a bookcase on the south side. 
+You are in the middle of a laundry room. There is a washing machine on the north side. There is a dryer on the east side. There is a sink on the west side. 
+You are in the middle of a bedroom. There is a TV on the south side. There is a computer on the west side. There is a bookcase on the east side. 
+You are in the middle of a laundry room. There is a sink on the north side. There is a washing machine on the south side. There is a dryer on the east side. 
+You are in the middle of a bedroom. There is a lamp on the north side. There is a desk on the east side. There is a mirror on the south side. 
+You are in the middle of a dining room. There is a sideboard on the west side. There is a table on the east side. There is a lamp on the south side. 
+You are in the middle of a bedroom. There is a wardrobe on the north side. There is a TV on the south side. There is a mirror on the west side. 
+You are in the middle of a study room. There is a desk on the west side. There is a lamp on the north side. There is a bookcase on the south side. 
+You are in the middle of a laundry room. There is a dryer on the east side. There is a sink on the north side. There is a washing machine on the west side. 
+You are in the middle of a kitchen. There is a sink on the south side. There is a kettle on the north side. There is a table on the east side. 
+You are in the middle of a laundry room. There is a dryer on the south side. There is a washing machine on the north side. There is a sink on the east side. 
+You are in the middle of a study room. There is a mirror on the east side. There is a desk on the south side. There is a bookcase on the north side. 
+You are in the middle of a dining room. There is a chair on the west side. There is a mirror on the north side. There is a table on the south side. 
+You are in the middle of a kitchen. There is a coffee machine on the south side. There is a microwave on the west side. There is a sink on the east side. 
+You are in the middle of a living room. There is a TV on the south side. There is a mirror on the east side. There is a lamp on the north side. 
+You are in the middle of a bedroom. There is a lamp on the west side. There is a chair on the north side. There is a drawer on the east side. 
+You are in the middle of a laundry room. There is a washing machine on the south side. There is a dryer on the north side. There is a sink on the west side. 
+You are in the middle of a kitchen. There is a toaster on the north side. There is a sink on the south side. There is a microwave on the west side. 
+You are in the middle of a study room. There is a desk on the east side. There is a chair on the west side. There is a lamp on the south side. 
+You are in the middle of a study room. There is a chair on the east side. There is a bookcase on the west side. There is a lamp on the south side. 
+You are in the middle of a bedroom. There is a desk on the north side. There is a computer on the south side. There is a bookcase on the east side. 
+You are in the middle of a bedroom. There is a TV on the south side. There is a bookcase on the west side. There is a computer on the east side. 
+You are in the middle of a living room. There is a sofa on the east side. There is a coffee table on the north side. There is a mirror on the west side. 
+You are in the middle of a laundry room. There is a sink on the south side. There is a dryer on the west side. There is a washing machine on the east side. 

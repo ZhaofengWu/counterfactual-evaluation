@@ -1,0 +1,10 @@
+results/
+llm_cache/
+__pycache__/
+*.pyc
+
+prompts.py
+llm_interface.py
+run_control.sh
+run_main.sh
+run_tmp.sh
