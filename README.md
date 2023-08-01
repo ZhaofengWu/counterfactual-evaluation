@@ -7,3 +7,5 @@ Rerunning our experiments requires that you have access to the relevant APIs (ex
 python create_cache.py {arithmetic,programming/execution,programming/generation,syntax,spatial,drawing,music/chords,music/melodies,chess,SET}/model_interactions
 ```
 Using this cache, you should obtain the exact numbers from our paper, unless otherwise mentioned in the individual README files when some version of randomness is involved.
+
+A general note: you may see mentions of "controls" in our code/file names. You can mentally subsitute it to "CCC"---it was an old name for that.
