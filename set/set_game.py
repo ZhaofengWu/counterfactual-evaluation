@@ -370,7 +370,7 @@ def evaluate(
 ):
     if load_data:
         data_type = "cf" if Game == CounterfactualSetGame else "real"
-        path = f"SET/data/{data_type}/h{hints}/cot_{cot}/data.pkl"
+        path = f"set/data/{data_type}/h{hints}/cot_{cot}/data.pkl"
         with open(path, "rb") as handle:
             data = pickle.load(handle)
     else:
@@ -378,7 +378,7 @@ def evaluate(
 
     if save_data:
         data_type = "cf" if Game == CounterfactualSetGame else "real"
-        path = f"SET/data/{data_type}/h{hints}/cot_{cot}/data.pkl"
+        path = f"set/data/{data_type}/h{hints}/cot_{cot}/data.pkl"
         os.makedirs(os.path.dirname(path), exist_ok=True)
         with open(path, "wb") as handle:
             pickle.dump(data, handle)
@@ -424,7 +424,7 @@ def evaluate_control(
 ):
     if load_data:
         data_type = "cf" if Game == CounterfactualSetGame else "real"
-        path = f"SET/data/{data_type}/control/cot_{cot}/data.pkl"
+        path = f"set/data/{data_type}/control/cot_{cot}/data.pkl"
         os.makedirs(os.path.dirname(path), exist_ok=True)
         with open(path, "rb") as handle:
             data = pickle.load(handle)
@@ -433,7 +433,7 @@ def evaluate_control(
 
     if save_data:
         data_type = "cf" if Game == CounterfactualSetGame else "real"
-        path = f"SET/data/{data_type}/control/cot_{cot}/data.pkl"
+        path = f"set/data/{data_type}/control/cot_{cot}/data.pkl"
         os.makedirs(os.path.dirname(path), exist_ok=True)
         with open(path, "wb") as handle:
             pickle.dump(data, handle)
