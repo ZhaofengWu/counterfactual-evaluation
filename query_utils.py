@@ -35,6 +35,8 @@ async def query_openai(
     n=1,
     **kwargs,
 ):
+    # reference: https://github.com/ekinakyurek/mylmapis/blob/b0adb192135898fba9e9dc88f09a18dc64c1f1a9/src/network_manager.py
+    
     # Initialize logging
     logger = logging.getLogger(__name__)
 
