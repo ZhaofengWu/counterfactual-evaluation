@@ -11,6 +11,7 @@ import google.api_core.exceptions as palm_exceptions
 import google.generativeai as palm
 import openai
 from tqdm.asyncio import tqdm_asyncio
+import logging
 
 openai_initialized = False
 ANTHROPIC_CLIENT = None
@@ -23,7 +24,6 @@ OPENAI_EXP_CAP = int(ceil(log2(OPENAI_REFRESH_QUOTA)))
 PALM_MAX_CANDIDATE_COUNT = 8
 BATCH_SIZE = 300  # sometimes APIs complain if we too many concurrent requests
 
-
 async def query_openai(
     prompt,
     model_name,
@@ -35,7 +35,14 @@ async def query_openai(
     n=1,
     **kwargs,
 ):
-    # reference: https://github.com/ekinakyurek/mylmapis/blob/b0adb192135898fba9e9dc88f09a18dc64c1f1a9/src/network_manager.py
+    # Initialize logging
+    logger = logging.getLogger(__name__)
+
+    # Validate required parameters
+    if not prompt or not model_name:
+        raise ValueError("Prompt and model_name are required parameters.")
+
+    # Prepare messages
     messages = []
     if system_msg is not None:
         messages += [{"role": "system", "content": system_msg}]
@@ -50,32 +57,33 @@ async def query_openai(
     for i in range(retry + 1):
         wait_time = (1 << min(i, OPENAI_EXP_CAP)) + random() / 10
         try:
+            logger.info("Attempting API call...")
             response = await openai.ChatCompletion.acreate(
                 model=model_name, messages=messages, **kwargs
             )
+            logger.info("API call successful")
+
+            # Log the request and response
             with open(HISTORY_FILE, "a") as f:
                 f.write(json.dumps((model_name, messages, kwargs, response)) + "\n")
+
             if any(choice["finish_reason"] != "stop" for choice in response["choices"]):
-                print("Truncated response!")
-                print(response)
+                logger.warning("Truncated response!")
+                logger.warning(response)
+
             contents = [choice["message"]["content"] for choice in response["choices"]]
             if n == 1:
                 return contents[0]
             else:
                 return contents
-        except (
-            openai.error.APIError,
-            openai.error.TryAgain,
-            openai.error.Timeout,
-            openai.error.APIConnectionError,
-            openai.error.ServiceUnavailableError,
-            openai.error.RateLimitError,
-        ) as e:
+        except openai.error.OpenAIError as e:
+            logger.error(f"OpenAI API error: {str(e)}")
             if i == retry:
+                logger.error("Max retries reached. Raising exception.")
                 raise e
             else:
+                logger.info(f"Retrying in {wait_time} seconds...")
                 await asyncio.sleep(wait_time)
-
 
 async def query_anthropic(
     prompt,
