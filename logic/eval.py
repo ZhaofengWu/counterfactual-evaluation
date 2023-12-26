@@ -190,8 +190,16 @@ def bootstrap_logistic_regression(data, preds, labels):
     return uppers, lowers
 
 
+def parse_bool(flag):
+    if isinstance(flag, bool):
+        return flag
+    assert flag in {"True", "False"}
+    return flag == "True"
 
-def main(data_file, model_name, output_file):
+
+def main(data_file, model_name, output_file, logreg=False):
+    logreg = parse_bool(logreg)
+
     data = load_data(data_file)
     add_truthfulness(data, model_name)
 
@@ -229,8 +237,9 @@ def main(data_file, model_name, output_file):
             labels.append(label)
     print("Accuracy:", accuracy_score(labels, preds))
 
-    print(logistic_regression(filtered_data, preds, labels))
-    print(bootstrap_logistic_regression(filtered_data, preds, labels))
+    if logreg:
+        print(logistic_regression(filtered_data, preds, labels))
+        print(bootstrap_logistic_regression(filtered_data, preds, labels))
 
 if __name__ == "__main__":
     try:

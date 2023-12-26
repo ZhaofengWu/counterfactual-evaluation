@@ -12,7 +12,7 @@ def load_data(data_file):
     return [json.loads(line.strip()) for line in open(data_file)]
 
 
-def templatize(obj, eval_orig=False):
+def templatize(obj, cot, eval_orig=False):
     if eval_orig:
         premises = obj["orig_premises"].strip()
     else:
@@ -31,7 +31,10 @@ def templatize(obj, eval_orig=False):
         conclusion = obj["orig_conclusion"].strip()
     else:
         conclusion = obj["conclusion"].strip()
-    return f"Consider the following premises: \"{premises}\" Assuming no other commonsense or world knowledge, is the sentence \"{conclusion}\" necessarily true, necessarily false, or neither? Let's think step by step, and end the response with either \"necessarily true\", \"necessarily false\", or \"neither\"."
+    if cot:
+        return f"Consider the following premises: \"{premises}\" Assuming no other commonsense or world knowledge, is the sentence \"{conclusion}\" necessarily true, necessarily false, or neither? Let's think step by step, and end the response with either \"necessarily true\", \"necessarily false\", or \"neither\"."
+    else:
+        return f"Consider the following premises: \"{premises}\" Assuming no other commonsense or world knowledge, is the sentence \"{conclusion}\" necessarily true, necessarily false, or neither? End the response with either \"necessarily true\", \"necessarily false\", or \"neither\"."
 
 
 def escape(str):
@@ -46,16 +49,17 @@ def parse_bool(flag):
     return flag == "True"
 
 
-def main(data_file, model_name, output_file, eval_orig=False):
+def main(data_file, model_name, output_file, cot, eval_orig=False):
     assert not os.path.exists(output_file)
+    cot = parse_bool(cot)
     eval_orig = parse_bool(eval_orig)
 
     data = load_data(data_file)
     assert all(
-        len(d["premises"].strip().split("\n")) == len(d["premises-FOL"].strip().split("\n"))
+        len(d["premises"].strip().split("\n")) == len(d["orig_premises-FOL"].strip().split("\n"))
         for d in data
     )
-    templatized = [templatize(obj, eval_orig=eval_orig) for obj in data]
+    templatized = [templatize(obj, cot, eval_orig=eval_orig) for obj in data]
 
     responses = query_batch(templatized, model_name)
 

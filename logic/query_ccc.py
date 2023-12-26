@@ -49,7 +49,7 @@ def main(data_file, model_name, output_file):
 
     data = load_data(data_file)
     assert all(
-        len(d["premises"].strip().split("\n")) == len(d["premises-FOL"].strip().split("\n"))
+        len(d["premises"].strip().split("\n")) == len(d["orig_premises-FOL"].strip().split("\n"))
         for d in data
     )
     templatized, labels = zip(*[templatize(obj) for obj in data])

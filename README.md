@@ -7,5 +7,6 @@ Rerunning our experiments requires that you have access to the relevant APIs (ex
 python create_cache.py {arithmetic,programming/execution,programming/generation,syntax,spatial,drawing,music/chords,music/melodies,chess,SET}/model_interactions
 ```
 Using this cache, you should obtain the exact numbers from our paper, unless otherwise mentioned in the individual README files when some version of randomness is involved.
+Note that the model interactions for the logic task needs to be downloaded separately, see [its `README.md`](logic/README.md) for more details. If you choose to do so, you should include the logic task in the above command as well.
 
 A general note: you may see mentions of "controls" in our code/file names. You can mentally subsitute it to "CCC"---it was an old name for that.
